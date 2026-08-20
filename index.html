@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Omveer Ki Kalam</title>
+<meta name="description" content="Omveer Singh Yadav की कहानियाँ, विचार और कविताएँ।">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+:root{--ink:#29231f;--muted:#756d66;--paper:#fffaf3;--soft:#f3e8dc;--accent:#9a5b3a;--line:#e5d8ca}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Hind,sans-serif;line-height:1.7}.wrap{width:min(1100px,92%);margin:auto}.top{position:sticky;top:0;background:#fffaf3ee;backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:5}.nav{min-height:70px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:700;font-size:1.35rem}.logo b{color:var(--accent)}nav{display:flex;gap:18px;flex-wrap:wrap}nav a{color:var(--muted);text-decoration:none}.hero{padding:85px 0;background:linear-gradient(135deg,#fffaf3,#f0e2d4)}.grid{display:grid;grid-template-columns:1.15fr .85fr;gap:55px;align-items:center}.eyebrow{color:var(--accent);font-weight:700;letter-spacing:.12em;font-size:.82rem}.hero h1{font:700 clamp(3rem,7vw,6rem)/1.03 'Playfair Display';margin:10px 0 20px}.hero h1 em{color:var(--accent);font-style:normal}.lead{font-size:1.18rem;color:var(--muted);max-width:650px}.btn{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;border-radius:999px;padding:10px 20px;margin-top:14px}.quote{background:white;border:1px solid var(--line);padding:35px;border-radius:22px;box-shadow:0 15px 45px #4d351b14;font-size:1.2rem}.quote .mark{font:5rem/0.7 'Playfair Display';color:var(--accent)}section{padding:70px 0}.soft{background:var(--soft)}.head{display:flex;justify-content:space-between;align-items:end;margin-bottom:25px}.head h2{font:700 2.4rem 'Playfair Display';margin:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px}.tag{color:var(--accent);font-size:.8rem;font-weight:700}.card h3{font-size:1.4rem;margin:7px 0}.card p{color:var(--muted)}.date{font-size:.8rem;color:#998e85}.about{display:grid}.aboutbox{background:#fff;border:1px solid var(--line);border-radius:20px;padding:40px;display:grid;grid-template-columns:.8fr 1.2fr;gap:40px}.aboutbox h2{font:700 2.4rem 'Playfair Display';margin:0}footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted)}footer .wrap{display:flex;justify-content:space-between}.empty{padding:30px;text-align:center;border:1px dashed var(--line);border-radius:16px;color:var(--muted);grid-column:1/-1}
+@media(max-width:800px){nav{display:none}.grid,.aboutbox{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.hero{padding:60px 0}section{padding:50px 0}footer .wrap{display:block}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap nav"><div class="logo">Omveer Ki <b>Kalam ✍</b></div><nav><a href="#home">होम</a><a href="#stories">कहानियाँ</a><a href="#thoughts">विचार</a><a href="#poems">कविताएँ</a><a href="#about">मेरे बारे में</a></nav></div></header>
+<main>
+<section class="hero" id="home"><div class="wrap grid"><div><div class="eyebrow">शब्द • विचार • कहानी</div><h1>मन की बात,<br><em>कलम के साथ।</em></h1><p class="lead">Omveer Singh Yadav की व्यक्तिगत लेखनी—कहानियाँ, विचार, कविताएँ और जीवन से जुड़े अनुभव।</p><a class="btn" href="#latest">रचनाएँ पढ़ें →</a></div><div class="quote"><div class="mark">“</div><p>हर शब्द अपने भीतर एक कहानी रखता है। कभी वह कागज़ पर उतरती है, कभी दिल में रह जाती है।</p><small>— Omveer Singh Yadav</small></div></div></section>
+<section id="latest"><div class="wrap"><div class="head"><div><div class="eyebrow">नवीनतम</div><h2>मेरी रचनाएँ</h2></div></div><div id="latestCards" class="cards"></div></div></section>
+<section class="soft" id="stories"><div class="wrap"><div class="head"><div><div class="eyebrow">कहानी</div><h2>कहानियाँ</h2></div></div><div id="storiesCards" class="cards"></div></div></section>
+<section id="thoughts"><div class="wrap"><div class="head"><div><div class="eyebrow">विचार</div><h2>विचार और लेख</h2></div></div><div id="thoughtCards" class="cards"></div></div></section>
+<section class="soft" id="poems"><div class="wrap"><div class="head"><div><div class="eyebrow">कविता</div><h2>कविताएँ</h2></div></div><div id="poemCards" class="cards"></div></div></section>
+<section id="about"><div class="wrap aboutbox"><div><div class="eyebrow">लेखक</div><h2>Omveer Singh Yadav</h2></div><p>यह वेबसाइट मेरी कलम से निकले विचारों, कहानियों और अनुभवों को पाठकों तक पहुँचाने की एक छोटी-सी कोशिश है। यहाँ आने वाला हर पाठक इस सफ़र का हिस्सा है।</p></div></section>
+</main>
+<footer><div class="wrap"><strong>Omveer Ki Kalam</strong><span>© 2026 Omveer Singh Yadav</span></div></footer>
+<script>
+const defaults=[
+{title:'पहली रचना',cat:'विचार',text:'यहाँ आपकी पहली मौलिक रचना दिखाई देगी। अपनी रचना जोड़ने के लिए नीचे दिए गए “नई रचना जोड़ें” विकल्प का उपयोग करें।',date:'19 अगस्त 2026'},
+{title:'एक छोटी-सी कहानी',cat:'कहानी',text:'कहानियाँ हमारे आसपास ही जन्म लेती हैं—बस उन्हें सुनने और लिखने वाली नज़र चाहिए।',date:'19 अगस्त 2026'},
+{title:'कुछ अनकहे शब्द',cat:'कविता',text:'यह स्थान आपकी अगली कविता के लिए है। अपनी पंक्तियाँ लिखिए और उन्हें दुनिया तक पहुँचाइए।',date:'19 अगस्त 2026'}];
+let posts=JSON.parse(localStorage.getItem('omveerPosts')||'null')||defaults;
+function esc(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+function card(p){return `<article class="card"><span class="tag">${esc(p.cat)}</span><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p><span class="date">${esc(p.date)}</span></article>`}
+function render(id,data){document.getElementById(id).innerHTML=data.length?data.map(card).join(''):'<div class="empty">अभी कोई रचना नहीं है।</div>'}
+render('latestCards',posts.slice(0,6));render('storiesCards',posts.filter(p=>p.cat==='कहानी'));render('thoughtCards',posts.filter(p=>p.cat==='विचार'));render('poemCards',posts.filter(p=>p.cat==='कविता'));
+</script>
+</body></html>
